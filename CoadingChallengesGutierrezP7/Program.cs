@@ -1,50 +1,8 @@
 ﻿using System;
-using System.ComponentModel.Design;
-using System.Security.Cryptography.X509Certificates;
-class CHalenges
+
+class Challenges
+// chop
 {
-
-
-
-
-    public static void Main(string[] args)
-    {
-
-
-        /*Welcome the user to my program
-        Console.WriteLine("Weclome to my coding challenge program. I will be making a variety of functions for you to use. \n Please pick one.");
-
-        Console.WriteLine("We are going to use the number adder today called sum. Please give me two numbers.");
-
-        var number1 = Console.ReadLine();
-        int numberToUse1 = int.Parse(number1);
-
-        Console.WriteLine("Got it, Give me your second number. \n");
-
-        var number2 = Console.ReadLine();
-        int numberToUse2 = int.Parse(number2);
-
-        Console.WriteLine("The Sum of the number: " + number1 + " and the number: " + number2 + "is equal to " + Sum(numberToUse1, numberToUse2));
-        Sum(numberToUse1, numberToUse2)*/
-
-        //Welcome the user to my program
-
-
-        Console.WriteLine("We are using the converter. Please give me a number");
-
-        var number1 = Console.ReadLine();
-        int numberToUse1 = int.Parse(number1);
-
-        Console.WriteLine(number1 + "minutes converted to seconds is " + Convert(numberToUse1));
-        Console.WriteLine("We are going to use the add 1 function");
-        var add1number = Console.ReadLine();
-        int add1n = int.Parse(add1number);
-        Console.WriteLine("If we add 1 to " + add1number + " we get " + add1(add1n) + ".");
-
-
-    }
-
-
     public static void Main(string[] args)
     {
         bool continueProgram = true; // Declare the variable to control program loop
@@ -71,7 +29,7 @@ class CHalenges
             Console.WriteLine("16.Input the amount of 3 and 2 pointers scored,to determine your final score.");
             Console.WriteLine("17.Input your lenght and width to determine the perimeter of your rectangle.");
 
-            //  loksz
+            //  chop
             string choice = Console.ReadLine();
 
             switch (choice)
@@ -348,7 +306,7 @@ class CHalenges
         return words1 + "Edabit";
     }
 
-    public static bool Papasdeadlokas(bool a, bool b)
+    public static bool kike(bool a, bool b)
     {
         if (a == true && b == true)
         {
@@ -362,22 +320,17 @@ class CHalenges
             return false;
         }
     }
-
-    public static int PepeTheSureño(int number13, int number14)
+    public static int joe(int number13, int number14)
     {
         return number13 * 2 + number14 * 3;
     }
 
-    public static int Chaks(int number15, int number16)
+    public static int bubba(int number15, int number16)
     {
         return number15 * 2 + number16 * 2;
     }
 
 
+
+
 }
-
-
-
-
-
-
