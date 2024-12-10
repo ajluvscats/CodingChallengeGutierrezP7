@@ -9,6 +9,7 @@ class Challenges
 
         while (continueProgram) // Start a loop to keep the program running
         {
+        
             Console.WriteLine("\nWelcome to my coding challenge program.");
             Console.WriteLine("Please select a challenge from the list:");
             Console.WriteLine("1. Add two numbers (SUM)");
@@ -164,7 +165,7 @@ class Challenges
 
                     if (firme <= 2)
                     {
-                        Console.WriteLine("The number needs to be 2 or more on the dead lokas");
+                        Console.WriteLine("The number needs to be 2 or more");
                     }
                     else if (firme > 2)
                     {
@@ -188,13 +189,13 @@ class Challenges
 
                 case "15":
 
-                    Console.WriteLine(" Now input a combination of true or false neta pa dead lokas");
+                    Console.WriteLine(" Now input a combination of true or false");
                     var a = Console.ReadLine();
                     bool abool = bool.Parse(a);
                     Console.WriteLine("Enter True or False again");
                     var b = Console.ReadLine();
                     bool bbool = bool.Parse(b);
-                    Console.WriteLine("And (" + a + ", " + b + ") -> " + Papasdeadlokas(abool, bbool) + ".");
+                    Console.WriteLine("And (" + a + ", " + b + ") -> " + joe(abool, bbool) + ".");
 
                     break;
 
@@ -206,7 +207,7 @@ class Challenges
                     int num13 = int.Parse(Console.ReadLine());
                     Console.Write("Enter your amount of 3 pointers: ");
                     int num14 = int.Parse(Console.ReadLine());
-                    Console.WriteLine($"The amount of 2 pointers is {num13} and 3 points is {num14} Which is equal to : {PepeTheSureño(num13, num14)} points!");
+                    Console.WriteLine($"The amount of 2 pointers is {num13} and 3 points is {num14} Which is equal to : {joe(num13, num14)} points!");
                     break;
 
 
@@ -217,7 +218,7 @@ class Challenges
                     int num15 = int.Parse(Console.ReadLine());
                     Console.Write("Enter your width  : ");
                     int num16 = int.Parse(Console.ReadLine());
-                    Console.WriteLine($"The Perimeter of the numbers {num15} and {num16} is equal to : {Chaks(num15, num16)} points!");
+                    Console.WriteLine($"The Perimeter of the numbers {num15} and {num16} is equal to : {pops(num15, num16)} points!");
                     break;
 
 
