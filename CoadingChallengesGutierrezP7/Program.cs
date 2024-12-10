@@ -1,7 +1,7 @@
 ﻿using System;
 
 class Challenges
-// chop
+// loksz
 {
     public static void Main(string[] args)
     {
@@ -9,7 +9,6 @@ class Challenges
 
         while (continueProgram) // Start a loop to keep the program running
         {
-        
             Console.WriteLine("\nWelcome to my coding challenge program.");
             Console.WriteLine("Please select a challenge from the list:");
             Console.WriteLine("1. Add two numbers (SUM)");
@@ -29,8 +28,11 @@ class Challenges
             Console.WriteLine("15.Input a combenation of a and b to determine if it is true or false.");
             Console.WriteLine("16.Input the amount of 3 and 2 pointers scored,to determine your final score.");
             Console.WriteLine("17.Input your lenght and width to determine the perimeter of your rectangle.");
+            Console.WriteLine("18.Write a word or a sentence that returns with Hello");
+            Console.WriteLine("19.Input the number of animals you have(chickens,cows,and pigs)");
+            Console.WriteLine("20.Input the number of (wins,draws,and losses) you have to determine the points your team has in the league.");
 
-            //  chop
+            //  loksz
             string choice = Console.ReadLine();
 
             switch (choice)
@@ -165,7 +167,7 @@ class Challenges
 
                     if (firme <= 2)
                     {
-                        Console.WriteLine("The number needs to be 2 or more");
+                        Console.WriteLine("The number needs to be 2 or more on the dead lokas");
                     }
                     else if (firme > 2)
                     {
@@ -189,13 +191,13 @@ class Challenges
 
                 case "15":
 
-                    Console.WriteLine(" Now input a combination of true or false");
+                    Console.WriteLine(" Now input a combination of true or false neta pa dead lokas");
                     var a = Console.ReadLine();
                     bool abool = bool.Parse(a);
                     Console.WriteLine("Enter True or False again");
                     var b = Console.ReadLine();
                     bool bbool = bool.Parse(b);
-                    Console.WriteLine("And (" + a + ", " + b + ") -> " + joe(abool, bbool) + ".");
+                    Console.WriteLine("And (" + a + ", " + b + ") -> " + Papasdeadlokas(abool, bbool) + ".");
 
                     break;
 
@@ -207,7 +209,7 @@ class Challenges
                     int num13 = int.Parse(Console.ReadLine());
                     Console.Write("Enter your amount of 3 pointers: ");
                     int num14 = int.Parse(Console.ReadLine());
-                    Console.WriteLine($"The amount of 2 pointers is {num13} and 3 points is {num14} Which is equal to : {joe(num13, num14)} points!");
+                    Console.WriteLine($"The amount of 2 pointers is {num13} and 3 points is {num14} Which is equal to : {PepeTheSureño(num13, num14)} points!");
                     break;
 
 
@@ -218,11 +220,43 @@ class Challenges
                     int num15 = int.Parse(Console.ReadLine());
                     Console.Write("Enter your width  : ");
                     int num16 = int.Parse(Console.ReadLine());
-                    Console.WriteLine($"The Perimeter of the numbers {num15} and {num16} is equal to : {pops(num15, num16)} points!");
+                    Console.WriteLine($"The Perimeter of the numbers {num15} and {num16} is equal to : {Chaks(num15, num16)} feet!");
                     break;
 
 
+                case "18":
 
+
+                    Console.WriteLine("now let's add hello to the start of your word");
+                    var words2 = Console.ReadLine();
+                    Console.WriteLine(HelloLeva(words2));
+
+
+                    break;
+
+                case "19":
+
+                    Console.WriteLine("Tell me how many chickens, cows, and pigs");
+                    Console.Write("Enter the chickens : ");
+                    int num17 = int.Parse(Console.ReadLine());
+                    Console.Write("Enter thhe cows  : ");
+                    int num18 = int.Parse(Console.ReadLine());
+                    Console.Write("Enter thhe pigs  : ");
+                    int num19 = int.Parse(Console.ReadLine());
+                    Console.WriteLine($"The legs of the animals are {num17} chicken legs , {num18} cow legs , and {num19} pig legs is equal to : {fam(num17, num18, num19)} legs!");
+                    break;
+
+                case "20":
+
+                    Console.WriteLine("Input the amount of wins, draws and loses you have");
+                    Console.Write("Enter the amount of wins : ");
+                    int num20 = int.Parse(Console.ReadLine());
+                    Console.Write("Enter the amount of draws : ");
+                    int num21 = int.Parse(Console.ReadLine());
+                    Console.Write("Enter the amount of loses  : ");
+                    int num22 = int.Parse(Console.ReadLine());
+                    Console.WriteLine($"The wins are {num20} , {num21} the draws are , and the losses are {num22} whihc is equal to : {footballfoo(num20, num21, num22)} points!");
+                    break;
 
 
 
@@ -307,7 +341,7 @@ class Challenges
         return words1 + "Edabit";
     }
 
-    public static bool kike(bool a, bool b)
+    public static bool Papasdeadlokas(bool a, bool b)
     {
         if (a == true && b == true)
         {
@@ -321,17 +355,36 @@ class Challenges
             return false;
         }
     }
-    public static int joe(int number13, int number14)
+
+    public static int PepeTheSureño(int number13, int number14)
     {
         return number13 * 2 + number14 * 3;
     }
 
-    public static int bubba(int number15, int number16)
+    public static int Chaks(int number15, int number16)
     {
         return number15 * 2 + number16 * 2;
+    }
+
+    public static string HelloLeva(string words2)
+    {
+        return "Hello " + words2 + "!";
+    }
+
+
+
+    public static int fam(int number17, int number18, int number19)
+    {
+        return number17 * 2 + number18 * 4 + number19 * 4;
+    }
+
+    public static int footballfoo(int number20, int number21, int number22)
+    {
+        return number20 * 3 + number21 * 1 + number22 * 0;
     }
 
 
 
 
 }
+
