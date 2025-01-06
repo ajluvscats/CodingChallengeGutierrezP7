@@ -19,7 +19,7 @@ class Challenges
             Console.WriteLine("6. Determine if a number is less than or equal to zero");
             Console.WriteLine("7. Convert Voltage to Power");
             Console.WriteLine("8. Determine if the sum of two numbers is less than a hundred");
-            Console.WriteLine("9. Determine if the your two value what where inputed are equal to eachother");
+            Console.WriteLine("9. Determine if the your two value what where inputed are equal t9o eachother");
             Console.WriteLine("10.Write a word or a sentence that returns with something");
             Console.WriteLine("11.The function reverses a boolean value");
             Console.WriteLine("12.Input a number to find out how many seconds are in the hours inputed in");
