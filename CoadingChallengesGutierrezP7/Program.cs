@@ -31,7 +31,7 @@ class Challenges
             Console.WriteLine("18.Write a word or a sentence that returns with Hello");
             Console.WriteLine("19.Input the number of animals you have(chickens,cows,and pigs)");
             Console.WriteLine("20.Input the number of (wins,draws,and losses) you have to determine the points your team has in the league.");
-
+           
             //  loksz
             string choice = Console.ReadLine();
 
@@ -259,7 +259,7 @@ class Challenges
                     break;
 
 
-
+              
 
             }
 
