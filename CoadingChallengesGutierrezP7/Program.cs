@@ -31,7 +31,7 @@ class Challenges
             Console.WriteLine("18.Write a word or a sentence that returns with Hello");
             Console.WriteLine("19.Input the number of animals you have(chickens,cows,and pigs)");
             Console.WriteLine("20.Input the number of (wins,draws,and losses) you have to determine the points your team has in the league.");
-           
+            Console.WriteLine("23.Take an array of integers (positive or negative or both) and return the sum of the absolute value of each element.");
             //  loksz
             string choice = Console.ReadLine();
 
@@ -258,8 +258,8 @@ class Challenges
                     Console.WriteLine($"The wins are {num20} , {num21} the draws are , and the losses are {num22} whihc is equal to : {footballfoo(num20, num21, num22)} points!");
                     break;
 
-
               
+               
 
             }
 
@@ -383,7 +383,7 @@ class Challenges
         return number20 * 3 + number21 * 1 + number22 * 0;
     }
 
-
+   
 
 
 }
